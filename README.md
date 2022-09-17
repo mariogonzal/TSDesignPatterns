@@ -4,7 +4,7 @@ Project designed to train people in design patterns
 How to run the project
 - [x] Install npm\
 `npm Install`
-- [x] Install TypeScrypt\ 
+- [x] Install TypeScrypt\
 `npm install -g typescript`
 - [x] install tsc-node\
 `npm install -g ts-node`
