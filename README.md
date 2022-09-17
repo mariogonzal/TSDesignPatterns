@@ -1,4 +1,4 @@
-# TSDesignPatterns
+# IoC Container TypeScript
 Project designed to train people in design patterns
 ## Run Project
 How to run the project
