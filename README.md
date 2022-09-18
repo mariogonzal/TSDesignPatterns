@@ -8,7 +8,7 @@ How to run the project
 `npm install -g typescript`
 - [x] install tsc-node\
 `npm install -g ts-node`
-- [x] run the code by\ 
+- [x] run the code by\
 `npm run build`\
 \
 \
