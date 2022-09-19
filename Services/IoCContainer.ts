@@ -1,3 +1,5 @@
+import { IService } from "./UserService/IService";
+
 export class IoCContainer
 {
      private static _instance:IoCContainer = new IoCContainer();
@@ -24,7 +26,7 @@ export class IoCContainer
 
     }
 
-    resolve<T>(name:string):T{
+    resolve<T extends IService>(name:string):T{
         if(!this._dependencies[name]){
             throw new Error(`Unresolved dependency ${name}`)
         }
